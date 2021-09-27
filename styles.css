@@ -3,6 +3,10 @@ body {
 	font-family: comfortaa;
 }
 
+h1 {
+	font-size: 100px;
+}
+
 @font-face {
 	font-family: comfortaa;
 	src: url(fonts/Comfortaa-VariableFont_wght.ttf);
