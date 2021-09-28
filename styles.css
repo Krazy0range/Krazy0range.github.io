@@ -9,6 +9,10 @@ h1 {
 	color: orange;
 }
 
+a {
+	color: orange;
+}
+
 @font-face {
 	font-family: comfortaa;
 	src: url(fonts/Comfortaa-VariableFont_wght.ttf);
