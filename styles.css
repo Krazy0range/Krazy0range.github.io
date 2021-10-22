@@ -3,6 +3,7 @@ body {
 	font-family: code;
 	font-size: 25px;
 	background-color: #1e1d22;
+	color: whitesmoke
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,7 +23,7 @@ a {
 
 .gradient-text {
 	background-image: linear-gradient(45deg, #ff6720, #ffcc6d);
-	background-size: 50%;
+	background-size: 51%;
 	background-repeat: repeat;
 	
 	-webkit-background-clip: text;
@@ -34,7 +35,7 @@ a {
 .centered {
 	height: 100vh;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
 	/* position: fixed;
 	top: 50%;
@@ -48,6 +49,8 @@ a {
 	justify-content: center;
 	/* flex-direction: column; */
 	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: center;
 }
 
 
