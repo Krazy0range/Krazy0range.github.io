@@ -3,7 +3,7 @@ body {
 	font-family: code;
 	font-size: 25px;
 	background-color: #1e1d22;
-	color: whitesmoke
+	color: whitesmoke;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,6 +15,7 @@ h1 {
 	font-size: 150px;
 	font-family: apex;
 	/* transform: perspective(5000px) translate3d(100px, 25px, 1000px) rotate3d(1, 1, 0, 30deg); */
+	margin-bottom: -5px;
 }
 
 a {
@@ -26,6 +27,7 @@ a {
 	background-size: 51%;
 	background-repeat: repeat;
 	
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; 
 	-moz-background-clip: text;
