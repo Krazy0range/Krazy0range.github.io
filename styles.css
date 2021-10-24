@@ -1,7 +1,9 @@
 body {
 	padding: 0px;
+
 	font-family: code;
 	font-size: 25px;
+
 	background-color: #1e1d22;
 	color: whitesmoke;
 }
@@ -14,12 +16,34 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 150px;
 	font-family: apex;
-	/* transform: perspective(5000px) translate3d(100px, 25px, 1000px) rotate3d(1, 1, 0, 30deg); */
+
 	margin-bottom: -5px;
 }
 
 a {
 	color: orange;
+}
+
+button {
+	font-family: code;
+	font-size: 25px;
+
+	padding: 20px;
+	margin: 20px;
+
+	background-color: rgba(0,0,0,0);
+	color: #ff6720;
+
+	border: solid #ff6720; 
+	border-radius: 0px;
+	transition: border-radius 0.5s, border-color 0.5s, color 0.5s;
+	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+button:hover {
+	border-radius: 25px;
+	border-color: #ff812d;
+	color: #ff812d;
 }
 
 .gradient-text {
@@ -37,12 +61,17 @@ a {
 .main {
 	display: flex;
 	height: 100vh;
-	/* justify-content: center; */
-	/* flex-direction: column; */
+
 	flex-wrap: wrap;
 	flex-direction: column;
 	align-items: center;
 }
+
+.tabs {
+	display: flex;
+}
+
+
 
 
 @font-face {
